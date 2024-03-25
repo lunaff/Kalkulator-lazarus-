@@ -1,0 +1,185 @@
+object Form1: TForm1
+  Left = 248
+  Height = 585
+  Top = 113
+  Width = 451
+  Caption = 'Form1'
+  ClientHeight = 585
+  ClientWidth = 451
+  Color = clSilver
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  LCLVersion = '3.2.0.0'
+  object Button1: TButton
+    Cursor = crHandPoint
+    Left = 48
+    Height = 58
+    Top = 336
+    Width = 56
+    Caption = '1'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Cursor = crHandPoint
+    Left = 112
+    Height = 58
+    Top = 336
+    Width = 56
+    Caption = '2'
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object Button3: TButton
+    Cursor = crHandPoint
+    Left = 176
+    Height = 58
+    Top = 336
+    Width = 56
+    Caption = '3'
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object Button4: TButton
+    Cursor = crHandPoint
+    Left = 48
+    Height = 58
+    Top = 272
+    Width = 56
+    Caption = '4'
+    TabOrder = 3
+    OnClick = Button1Click
+  end
+  object Button5: TButton
+    Cursor = crHandPoint
+    Left = 112
+    Height = 58
+    Top = 272
+    Width = 56
+    Caption = '5'
+    TabOrder = 4
+    OnClick = Button1Click
+  end
+  object Button6: TButton
+    Cursor = crHandPoint
+    Left = 176
+    Height = 58
+    Top = 272
+    Width = 56
+    Caption = '6'
+    TabOrder = 5
+    OnClick = Button1Click
+  end
+  object Button7: TButton
+    Cursor = crHandPoint
+    Left = 48
+    Height = 58
+    Top = 208
+    Width = 56
+    Caption = '7'
+    TabOrder = 6
+    OnClick = Button1Click
+  end
+  object Button8: TButton
+    Cursor = crHandPoint
+    Left = 112
+    Height = 58
+    Top = 208
+    Width = 56
+    Caption = '8'
+    TabOrder = 7
+    OnClick = Button1Click
+  end
+  object Button9: TButton
+    Cursor = crHandPoint
+    Left = 176
+    Height = 58
+    Top = 208
+    Width = 56
+    Caption = '9'
+    TabOrder = 8
+    OnClick = Button1Click
+  end
+  object Button10: TButton
+    Cursor = crHandPoint
+    Left = 48
+    Height = 58
+    Top = 400
+    Width = 120
+    Caption = '0'
+    TabOrder = 9
+    OnClick = Button1Click
+  end
+  object titik: TButton
+    Cursor = crHandPoint
+    Left = 176
+    Height = 58
+    Top = 400
+    Width = 56
+    Caption = '.'
+    TabOrder = 10
+    OnClick = titikClick
+  end
+  object edthasil: TEdit
+    Left = 48
+    Height = 23
+    Top = 168
+    Width = 328
+    TabOrder = 11
+    OnChange = edthasilChange
+  end
+  object tambah: TButton
+    Left = 256
+    Height = 56
+    Top = 210
+    Width = 54
+    Caption = '+'
+    TabOrder = 12
+    OnClick = tambahClick
+  end
+  object kurang: TButton
+    Left = 320
+    Height = 56
+    Top = 210
+    Width = 54
+    Caption = '-'
+    TabOrder = 13
+    OnClick = kurangClick
+  end
+  object kali: TButton
+    Left = 256
+    Height = 56
+    Top = 272
+    Width = 54
+    Caption = 'x'
+    TabOrder = 14
+    OnClick = kaliClick
+  end
+  object bagi: TButton
+    Left = 320
+    Height = 56
+    Top = 272
+    Width = 54
+    Caption = '/'
+    TabOrder = 15
+    OnClick = bagiClick
+  end
+  object hitung: TButton
+    Left = 256
+    Height = 56
+    Top = 400
+    Width = 122
+    Caption = '='
+    TabOrder = 16
+    OnClick = hitungClick
+  end
+  object AC: TButton
+    Left = 256
+    Height = 56
+    Top = 336
+    Width = 120
+    Caption = 'AC'
+    TabOrder = 17
+    OnClick = ACClick
+  end
+end
